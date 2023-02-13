@@ -1,0 +1,134 @@
+#our-skills {
+    padding: 80px 0;
+    background-color:  #D8E7E6;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skills-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skills-image {
+    width: 40%;
+    max-width: 400px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  
+  .skills-text {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .skills-text h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .language-icons {
+    background-color: #1a1a1adc;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+  
+  .language-icons img {
+    width: 25px;
+    height: 25px;
+}
+.language-icons .icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.html{
+ background-color:  rgba(251,146,60,.1);
+}
+.html span{
+  color: #fb923c;
+}
+.css{
+  background-color: #3b82f61a;
+}
+.css span{
+  color: #3b82f6;
+}
+.bootstrap{
+  background-color: #aa8be091;
+}
+.js{
+  background-color: #eab3081a;
+}
+.js span{
+  color: #eab308;
+}
+.jquery{
+  background-color: white;
+  border: 1px solid black;
+}
+.jquery span{
+  color: black;
+}
+.php{
+  background-color: #93c5fd1a;
+}
+.php span{
+  color: #94a3b8;
+}
+.mysql{
+  background-color: #94a3b81a;
+}
+.mysql span{
+  color: #94a3b8;
+}
+.mongoDb{
+  background-color: #5d4037;
+}
+.mongoDb span{
+  color: #4caf50;
+}
+
+@media (max-width: 992px) {
+  .skills-row {
+    flex-direction: column;
+  }
+  
+  .skills-image {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .skills-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+.skills-description{
+   line-height: 1.5;
+   letter-spacing: 1.2px;
+   color: #1a195a;
+}
