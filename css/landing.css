@@ -47,11 +47,10 @@
 .landing-text span{
     color: #BFC0C3;
 }
-
 .contact-button {
     padding: 10px 20px;
     background-color: #5761bb;
-    color: white;
+    
     text-transform: lowercase;
     letter-spacing: 2px;
     border: none;
@@ -60,7 +59,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+.contact-button a{
+    color: white;
+}
 .contact-button:hover {
     background-color: #394399;
 }
@@ -88,6 +89,6 @@
 }
 
 .landing-image {
-        width: 70%;
+        display: none;
     }
 }

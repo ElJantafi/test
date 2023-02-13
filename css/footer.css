@@ -1,3 +1,4 @@
+
 footer {
     background-color: #333;
     color: #fff;
@@ -6,7 +7,7 @@ footer {
   
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1080px;
     margin: 0 auto;

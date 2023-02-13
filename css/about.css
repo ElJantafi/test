@@ -1,9 +1,8 @@
 .about-section {
-    height: 100%;
-    padding: 30px;
+    padding: 60px 0;
     background-color: #D8E7E6;
     text-align: center;
-
+    min-height: 100vh;
 }
 
 .about-section .container {
